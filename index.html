@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="Welcome-to-PokeWar-2-11-2023.png" alt=""/>
+
+    </header>
+    <div class="game">
+        <div class="teams">
+            <div id="left_team" class="left_team">
+                <!-- Aquí se mostrarán los Pokémon del equipo izquierdo -->
+            </div>
+            <div id="right_team" class="right_team">
+                <!-- Aquí se mostrarán los Pokémon del equipo derecho -->
+            </div>
+        </div>
+        <div id="battle_container" class="battle-container">
+            <div id="ourPokemonContainer" class="battle-pokemon"></div>
+            <div id="enemyPokemonContainer" class="battle-pokemon"></div>
+        </div>
+    </div>
+        
+    </div>
+    <button id="batalla"><i class="fa-regular fa-compass fa-spin"></i> Start the battle</button>
+    <button id="create"><i class="fa-solid fa-puzzle-piece"></i> Create ur team</button>
+    <button id="atacar"><i class="fa-solid fa-gamepad"></i> Atacar</button>
+    <div id="win">
+        <h1>¡HAS GANADO!</h1>
+        <button id="reloadButton"><i class="fa-solid fa-rotate-right"></i> Recargar página</button>
+    </div>
+    <div id="loose">
+        <h1>¡HAS PERDIDO!</h1>
+        <button id="reloadButton2"><i class="fa-solid fa-rotate-right"></i> Recargar página</button>
+    </div>
+    
+
+
+
+    <script src="main.js"></script>
+    <audio id="song" src="./Pokemon Red, Yellow, Blue Battle Music- Trainer.mp3"></audio>
+
+</body>
+</html>
